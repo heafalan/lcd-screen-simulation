@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LCD screen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="pages/styles/style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="pages/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1> Display numbers on a LCD screen simulation </h1>
+        <form name="formNumber">
+            <input id="number" type="text" name="number" value="0">
+            <input id="buttonDisplay" type="button" value="display" onclick="printTheNumber()">
+        </form>
+        <div id="lcdNumbers"></div>
+    </div>
+</body>
+
+</html>
