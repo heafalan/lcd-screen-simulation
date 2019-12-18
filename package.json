@@ -1,0 +1,19 @@
+{
+  "name": "lcd-screen-simulation",
+  "version": "1.0.0",
+  "description": "display a number on an lcd screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test for the moment'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heafalan/lcd-screen-simulation.git"
+  },
+  "author": "HEAFALA Natacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heafalan/lcd-screen-simulation/issues"
+  },
+  "homepage": "https://github.com/heafalan/lcd-screen-simulation#readme"
+}
